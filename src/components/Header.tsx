@@ -34,7 +34,7 @@ export default function Header({
         <img 
           src={logoUrl || "/images/aradhyam_logo.jpg"} 
           alt={`${schoolName} Logo`} 
-          style={{ width: '250px', height: '94px', borderRadius: '8px', objectFit: 'contain' }}
+          style={{ width: 'auto', maxWidth: '240px', height: '54px', borderRadius: '4px', objectFit: 'contain' }}
         />
 
       </Link>
