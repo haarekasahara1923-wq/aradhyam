@@ -88,6 +88,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== POSTER SECTION ===== */}
+      <section style={{ width: "100%", padding: "40px 20px", backgroundColor: "#fdfdfd", display: "flex", justifyContent: "center" }}>
+        <img src="/images/poster.jpg" alt="Admission Open Poster" style={{ width: "100%", maxWidth: "800px", height: "auto", borderRadius: "12px", boxShadow: "0 8px 30px rgba(0,0,0,0.12)" }} />
+      </section>
+
       {/* ===== STATS BAR ===== */}
       <section className={styles.statsBar}>
         <div className={styles.statItem} ref={years.ref}>
