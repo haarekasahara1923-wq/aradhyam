@@ -43,11 +43,10 @@ export default function AdminSidebar({ logoUrl }: { logoUrl?: string }) {
 
       <aside className={`${styles.sidebar} ${mobileOpen ? styles.open : ''}`}>
         <div className={styles.header}>
-          <img 
-            src={logoUrl || "/images/aradhyam_logo.jpg"} 
-            alt="Logo" 
-            style={{ width: '220px', height: '80px', borderRadius: '8px', objectFit: 'contain', margin: '0 auto', display: 'block' }}
-          />
+          <div style={{ textAlign: 'center', color: '#f97316', marginBottom: '15px' }}>
+            <div style={{ fontSize: '2rem', fontWeight: 'bold', lineHeight: '1' }}>आराध्यम्</div>
+            <div style={{ fontSize: '0.8rem', fontWeight: '600', letterSpacing: '1px' }}>MULTICULTURAL SCHOOL</div>
+          </div>
           <h2>Admin Panel</h2>
         </div>
 

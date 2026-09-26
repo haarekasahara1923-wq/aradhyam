@@ -31,11 +31,10 @@ export default function Header({
   return (
     <header className={styles.header}>
       <Link href="/" className={styles.logoContainer} onClick={closeMenu}>
-        <img 
-          src={logoUrl || "/images/aradhyam_logo.jpg"} 
-          alt={`${schoolName} Logo`} 
-          style={{ width: 'auto', maxWidth: '240px', height: '54px', borderRadius: '4px', objectFit: 'contain' }}
-        />
+        <div style={{ display: 'flex', flexDirection: 'column', color: '#f97316' }}>
+          <span style={{ fontSize: '1.8rem', fontWeight: 'bold', lineHeight: '1' }}>आराध्यम्</span>
+          <span style={{ fontSize: '0.75rem', fontWeight: '600', letterSpacing: '1px' }}>MULTICULTURAL SCHOOL</span>
+        </div>
 
       </Link>
 

@@ -23,11 +23,10 @@ export default function Footer({
       <div className={styles.footerContent}>
         <div className={styles.footerSection}>
           <div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "15px" }}>
-            <img 
-              src={logoUrl || "/images/aradhyam_logo.jpg"} 
-              alt={`${schoolName} Logo`} 
-              style={{ width: '250px', height: '94px', borderRadius: '8px', objectFit: 'contain' }}
-            />
+            <div style={{ display: 'flex', flexDirection: 'column', color: '#f97316' }}>
+              <span style={{ fontSize: '2.2rem', fontWeight: 'bold', lineHeight: '1' }}>आराध्यम्</span>
+              <span style={{ fontSize: '0.9rem', fontWeight: '600', letterSpacing: '1px' }}>MULTICULTURAL SCHOOL</span>
+            </div>
 
           </div>
           <p className={styles.footerText}>{tagline}</p>
