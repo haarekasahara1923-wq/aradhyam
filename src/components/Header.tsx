@@ -32,7 +32,7 @@ export default function Header({
     <header className={styles.header}>
       <Link href="/" className={styles.logoContainer} onClick={closeMenu}>
         <img 
-          src={logoUrl || "/images/logo.jpg"} 
+          src={logoUrl || "/images/aradhyam_logo.jpg"} 
           alt={`${schoolName} Logo`} 
           style={{ width: '170px', height: '64px', borderRadius: '8px', objectFit: 'contain' }}
         />

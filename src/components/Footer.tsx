@@ -24,7 +24,7 @@ export default function Footer({
         <div className={styles.footerSection}>
           <div style={{ display: "flex", alignItems: "center", gap: "15px", marginBottom: "15px" }}>
             <img 
-              src={logoUrl || "/images/logo.jpg"} 
+              src={logoUrl || "/images/aradhyam_logo.jpg"} 
               alt={`${schoolName} Logo`} 
               style={{ width: '180px', height: '68px', borderRadius: '8px', objectFit: 'contain' }}
             />

@@ -65,7 +65,7 @@ export default function Home() {
             🏆 &nbsp; Affiliated & Recognized School — Gwalior, MP
           </div>
           <h1 className={`${styles.heroSchoolName} animate-fade-in-2`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <span>Aradhyam</span>
+            <span>आराध्यम्</span>
             <span style={{ fontSize: '0.45em', letterSpacing: '4px', fontWeight: 600, marginTop: '5px' }}>Multi Cultural School</span>
           </h1>
           <p className={`${styles.heroTagline} animate-fade-in-2`}>

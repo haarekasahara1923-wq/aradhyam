@@ -44,7 +44,7 @@ export default function AdminSidebar({ logoUrl }: { logoUrl?: string }) {
       <aside className={`${styles.sidebar} ${mobileOpen ? styles.open : ''}`}>
         <div className={styles.header}>
           <img 
-            src={logoUrl || "/images/logo.jpg"} 
+            src={logoUrl || "/images/aradhyam_logo.jpg"} 
             alt="Logo" 
             style={{ width: '160px', height: '58px', borderRadius: '8px', objectFit: 'contain', background: '#FFFF00', margin: '0 auto', display: 'block' }}
           />
