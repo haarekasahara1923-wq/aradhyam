@@ -59,7 +59,7 @@ export default async function PublicLayout({
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <AnnouncementBar announcements={announcementTexts} />
       <Header phone={phone} schoolName={schoolName} logoUrl={logoUrl} />
-      <div style={{ width: "100%", display: "flex", justifyContent: "center", backgroundColor: "#fff" }}>
+      <div style={{ width: "100%", display: "flex", justifyContent: "center", background: "linear-gradient(90deg, #2563eb 0%, #f97316 100%)" }}>
         <img src="/images/banner.jpg" alt="Aradhyam Banner" style={{ width: "100%", maxWidth: "1200px", height: "auto", display: "block" }} />
       </div>
       <main style={{ flex: 1 }}>{children}</main>

@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* ===== POSTER SECTION ===== */}
-      <section style={{ width: "100%", padding: "40px 20px", backgroundColor: "#fdfdfd", display: "flex", justifyContent: "center" }}>
+      <section style={{ width: "100%", padding: "40px 20px", background: "linear-gradient(135deg, #2563eb 0%, #f97316 100%)", display: "flex", justifyContent: "center" }}>
         <img src="/images/poster.jpg" alt="Admission Open Poster" style={{ width: "100%", maxWidth: "800px", height: "auto", borderRadius: "12px", boxShadow: "0 8px 30px rgba(0,0,0,0.12)" }} />
       </section>
 
